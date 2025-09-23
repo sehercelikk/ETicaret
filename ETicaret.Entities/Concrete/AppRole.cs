@@ -1,5 +1,7 @@
-﻿namespace ETicaret.Entities.Concrete;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class AppRole
+namespace ETicaret.Entities.Concrete;
+
+public class AppRole: IdentityRole<Guid>
 {
 }

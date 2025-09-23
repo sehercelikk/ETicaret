@@ -1,5 +1,9 @@
-﻿namespace ETicaret.Entities.Concrete;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class AppUser
+namespace ETicaret.Entities.Concrete;
+
+public class AppUser : IdentityUser<Guid>
 {
+    public string Name { get; set; }
+    public string Surname { get; set; }
 }
