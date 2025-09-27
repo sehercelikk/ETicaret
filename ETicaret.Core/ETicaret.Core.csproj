@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataAccess\Abstract\" />
-    <Folder Include="DataAccess\Concrete\" />
     <Folder Include="Utilites\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ETicaret.Entities\ETicaret.Entities.csproj" />
   </ItemGroup>
 
 </Project>
