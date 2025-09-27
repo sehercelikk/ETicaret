@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ETicaret.Entities.Abstract;
 
 namespace ETicaret.Entities.Concrete;
 
-public class Branch : BaseEntity
+public class Branch : BaseEntity,IEntity
 {
     public string Name { get; set; }
     public string Description { get; set; }

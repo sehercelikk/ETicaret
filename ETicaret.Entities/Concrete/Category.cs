@@ -1,6 +1,8 @@
-﻿namespace ETicaret.Entities.Concrete;
+﻿using ETicaret.Entities.Abstract;
 
-public class Category : BaseEntity
+namespace ETicaret.Entities.Concrete;
+
+public class Category : BaseEntity,IEntity
 {
     public string Name { get; set; }
     public List<Branch> Branches { get; set; }
