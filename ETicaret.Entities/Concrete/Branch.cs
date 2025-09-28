@@ -8,4 +8,5 @@ public class Branch : BaseEntity,IEntity
     public string Description { get; set; }
     public string CategoryId { get; set; }
     public Category Category { get; set; }
+    public List<Product> Products { get; set; }
 }

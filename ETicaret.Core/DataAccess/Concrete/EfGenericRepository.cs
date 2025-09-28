@@ -53,7 +53,7 @@ public class EfGenericRepository<TEntity> : IGenericDal<TEntity> where TEntity :
                 }
             }
         }
-        return await query.AsNoTracking().ToListAsync();)
+        return await query.AsNoTracking().ToListAsync();
     }
 
     public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> expression = null, params Expression<Func<TEntity, object>>[] expressions)
