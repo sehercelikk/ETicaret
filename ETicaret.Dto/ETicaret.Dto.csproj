@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\AddDto\" />
     <Folder Include="Concrete\UpdateDto\" />
   </ItemGroup>
 
